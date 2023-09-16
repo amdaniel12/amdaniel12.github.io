@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(/img/fondocar.png);
+}
+
+.wrapper{
+    background-color:rgba(255, 255, 255, 0.6);
+    width: 740px;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+h2{
+    text-align: center;
+
+}
+
+hr{
+    width: 100px;
+    margin: 10px auto;
+}
+
+.members{
+    display: flex;
+}
+
+.team-mem{
+    margin: 8px;
+}
+
+img{
+    width: 200px;
+    height: 170px;
+    border-radius: 0%;
+    margin: 10px;
+    transition: transform 0.2s ease-out; 
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+h4,p{
+    text-align: center;
+    font-size: 14px;
+    margin: 7px;
+    color: #fff;
+}
