@@ -22,12 +22,15 @@
     
     <!---------- NAVBAR ------------>
 
-    <header>
-        <div class="logo">
-            <a href="alsamet_inicio.html"><img src="img/logoof_whpng.png" alt=""></a>
+    <header id="navbar">
+        <div class="logo" id="logoOriginal">
+            <a href="alsamet_inicio.html"><img src="img/logoof.png" alt=""></a>
         </div>
+        <div class="logo" id="logoScrolled">
+            <a href="alsamet_inicio.html"><img src="img/logoof_whpng.png" alt=""></a>
+          </div>
         <input type="checkbox" id="nav_check" hidden>
-        <nav>
+        <nav >
             <ul>
                 <li>
                     <a href="alsamet_inicio.html" class="active">Inicio</a>
@@ -39,7 +42,7 @@
                     <a href="#">Productos</a>
                 </li>
                 <li>
-                    <a href="#">Contacto</a>
+                    <a href="contacto.html">Contacto</a>
                 </li>
                 <li>
                     <img src="img/venezuela.jpg" class="ven" alt="">
@@ -112,11 +115,11 @@
         <div class="fedger">
             <img src="img/logo-1.png" alt="">
             <div class="all-text">
-                <h4>About Us</h4>
+                <h4>Acerca De</h4>
                 <h1>Nuestra Empresa</h1>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 <div class="btn-info">
-                    <button type="button">Learn More</button>
+                    <button type="button">Saber Más</button>
                 </div>
             </div>
         </div>
@@ -180,13 +183,13 @@
             <h1 class="title1"><i class="fa-brands fa-js-square"></i> Categoria 1</h1>
             <div class="contvideos">   
                 <div class="video">
-                    <iframe src="https://www.youtube.com/watch?v=qxp4KPujohM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/qxp4KPujohM?si=BYabYc6-xzaWRM3o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>                                         
                 <div class="video">
-                    <iframe  src="https://www.youtube.com/watch?v=qxp4KPujohM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/qxp4KPujohM?si=BYabYc6-xzaWRM3o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
                 <div class="video">
-                    <iframe  src="https://www.youtube.com/watch?v=qxp4KPujohM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/qxp4KPujohM?si=BYabYc6-xzaWRM3o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>                
                
                             
@@ -197,13 +200,13 @@
             <h1 class="title1"><i class="fa-brands fa-python"></i> Categoria 2</h1>
             <div class="contvideos">            
                 <div class="video">
-                    <iframe width="560" height="315" src="https://youtu.be/qxp4KPujohM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/qxp4KPujohM?si=BYabYc6-xzaWRM3o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
                 <div class="video">
-                    <iframe width="560" height="315" src="https://youtu.be/qxp4KPujohM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/qxp4KPujohM?si=BYabYc6-xzaWRM3o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
                 <div class="video">
-                    <iframe width="560" height="315" src="https://youtu.be/qxp4KPujohM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/qxp4KPujohM?si=BYabYc6-xzaWRM3o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
             </div>
 
@@ -212,49 +215,56 @@
     
     <!---------- SLIDER ------------>
 
+    <div class="tt-slider">
+        <h3 class="title-slider">Representamos</h3>
+        <h4 class="sbtitle-slider">A estas marcas</h4>
+        <hr class="dv-slider">
+    </div>
+    
+
     <div class="sldlogo">
         <div class="slide-track">
-            <div class="slide">
+            <div class="slide-lg">
                 <img src="img/logo1.png" alt="">
             </div>
-            <div class="slide">
+            <div class="slide-lg">
                 <img src="img/logo2.png" alt="">
             </div>
-            <div class="slide">
+            <div class="slide-lg">
                 <img src="img/logo1.png" alt="">
             </div>
-            <div class="slide">
+            <div class="slide-lg">
                 <img src="img/logo2.png" alt="" >
             </div>
-            <div class="slide">
+            <div class="slide-lg">
                 <img src="img/logo1.png" alt="" >
             </div>
-            <div class="slide">
+            <div class="slide-lg">
                 <img src="img/logo2.png" alt="" >
             </div>
-            <div class="slide">
+            <div class="slide-lg">
                 <img src="img/logo1.png" alt="" >
             </div>
 
-            <div class="slide">
+            <div class="slide-lg">
                 <img src="img/logo1.png" alt="" >
             </div>
-            <div class="slide">
+            <div class="slide-lg">
                 <img src="img/logo2.png" alt="" >
             </div>
-            <div class="slide">
+            <div class="slide-lg">
                 <img src="img/logo1.png" alt="">
             </div>
-            <div class="slide">
+            <div class="slide-lg">
                 <img src="img/logo2.png" alt="">
             </div>
-            <div class="slide">
+            <div class="slide-lg">
                 <img src="img/logo1.png" alt="">
             </div>
-            <div class="slide">
+            <div class="slide-lg">
                 <img src="img/logo2.png" alt="">
             </div>
-            <div class="slide">
+            <div class="slide-lg">
                 <img src="img/logo1.png" alt="">
             </div>
         </div>
@@ -315,6 +325,7 @@
 
     <!-- Swiper JS -->
     <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/navbar.js"></script>
 
     <!-- Initialize Swiper -->
     <script>
